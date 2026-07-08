@@ -2,158 +2,135 @@
 
 ## Project Overview
 
-The AI-Based Career Recommendation System is a console-based Python application that helps students identify suitable career paths based on their interests, favorite subjects, skills, and preferred working style.
+The AI-Based Career Recommendation System is a console-based Python application that helps students discover suitable career paths based on their interests, academic strengths, skills, and preferred work style.
 
-The system analyzes user input using logical rules and recommends careers such as:
+The system uses predefined logical rules to analyze user input and recommend careers. It also stores user records permanently using an SQLite database.
 
-* Data Scientist
-* AI Engineer
-* Software Engineer
-* Web Developer
-* Cybersecurity Analyst
-* Doctor
-* Graphic Designer
-* Teacher
-* Accountant
-* Digital Marketer
-
-The project is developed using only Core Python concepts without Object-Oriented Programming, Exception Handling, or external libraries.
+This project was developed using Core Python concepts without Object-Oriented Programming or external GUI frameworks.
 
 ---
 
-# Features
+## Features
 
-## User Information Collection
-
-The system collects:
-
-* Name
-* Age
-* Qualification
-* Favorite Subject
-* Strongest Subject
-* Skills
-* Career Interests
-* Preferred Work Style
-
-## Smart Career Recommendation
-
-The system recommends careers based on:
-
-* Skills
-* Subjects
-* Interests
-* Work preferences
-
-## Multiple Recommendations
-
-Users can receive multiple career suggestions ranked by matching score.
-
-## Career Details
-
-For every recommended career, the system displays:
-
-* Description
-* Required Skills
-* Future Scope
-
-## Final Career Report
-
-The system generates a professional report showing:
-
-* User details
-* Skills
-* Interests
-* Recommended careers
-
-## File Database Support
-
-The system stores user records in:
-career_records.txt
-
-Users can:
-
-* Save records
-* View previous records
+- User-friendly console interface
+- Collects student information
+- Career recommendations based on logical rules
+- Multiple career suggestions
+- Career descriptions
+- Required skills for each career
+- Future scope of each career
+- SQLite database integration
+- View previously saved records
+- Professional report generation
 
 ---
 
-# Technologies Used
+## Technologies Used
 
-* Python
-* File Handling
-* Lists
-* Dictionaries
-* Functions
-* Loops
-* Conditional Statements
-
----
-
-# Project Structure
-
-career_project.py
-career_records.txt
-README.md
+- Python
+- SQLite
+- Core Python Concepts
+- Conditional Statements
+- Functions
+- Loops
+- Lists
+- Dictionaries
+- String Handling
 
 ---
 
-# How to Run
+## Career Recommendations
 
-## Step 1
+The system can recommend careers such as:
 
-Install Python
-
-## Step 2
-
-Open terminal or VS Code
-
-## Step 3
-
-Run the project
-
-python career_project.py
-
----
-
-# Learning Outcomes
-
-After completing this project students will learn:
-
-* Core Python programming
-* Recommendation system logic
-* Data analysis thinking
-* File handling
-* Real-world project development
-* AI system basics
+- Data Scientist
+- AI Engineer
+- Software Engineer
+- Web Developer
+- Cybersecurity Analyst
+- Graphic Designer
+- Doctor
+- Digital Marketer
+- Teacher
+- Accountant
 
 ---
 
-# Industry Relevance
+## Database
 
-This project is inspired by:
+The project uses SQLite to store user records.
 
-* Career counseling systems
-* Educational technology platforms
-* AI recommendation engines
-* HR recruitment systems
+Database file:
 
----
+career.db
 
-# Sample Careers Included
+Stored Information:
 
-* Data Scientist
-* AI Engineer
-* Web Developer
-* Software Engineer
-* Cybersecurity Analyst
-* Graphic Designer
-* Doctor
-* Accountant
-* Teacher
-* Digital Marketer
+- Name
+- Age
+- Qualification
+- Favorite Subject
+- Strongest Subject
+- Skills
+- Interest
+- Preferred Work Style
+- Recommended Careers
 
 ---
 
-# Author
-Sharif ur Rehman
+## Project Structure
+
+```
+Career-Recommendation-System/
+│
+├── career.py
+├── career.db
+└── README.md
+```
+
+
+
+---
+
+## Sample Workflow
+
+- Enter personal information
+- Select skills and interests
+- System analyzes your profile
+- Career recommendations are displayed
+- Data is saved automatically into SQLite
+- View saved records anytime
+
+---
+
+## Learning Outcomes
+
+- Core Python Programming
+- Decision Making
+- Recommendation Systems
+- SQLite Database Integration
+- Data Management
+- Problem Solving
+- Console Application Development
+
+---
+
+## Future Improvements
+
+- Graphical User Interface (Tkinter)
+- Career Matching Percentage
+- Search and Update Records
+- Delete Records
+- Login System
+- AI-based Recommendation Model
+- Export Reports as PDF
+
+---
+
+## Author
+
+Sharif Ur Rehman
+
+BS Artificial Intelligence Student
+
+Sindh Madressatul Islam University (SMIU)
