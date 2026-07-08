@@ -78,18 +78,6 @@ Stored Information:
 
 ---
 
-## Project Structure
-
-```
-Career-Recommendation-System/
-│
-├── career.py
-├── career.db
-└── README.md
-```
-
-
-
 ---
 
 ## Sample Workflow
